@@ -31,7 +31,7 @@ echo -n "oque você deseja?: "
 read desejo;
 if [ $desejo = "1" ]; then
         clear
-        echo "servidor iniciado"; sudo systemctl start nginx; http://127.0.0.1
+        echo "servidor iniciado"; sudo systemctl start nginx
 else
         echo ""
 fi
@@ -45,7 +45,7 @@ fi
 
 if [ $desejo = "3" ]; then
         clear
-        sudo systemctl restart nginx; open http://127.0.0.1
+        sudo systemctl restart nginx
 else
         echo ""
 fi
