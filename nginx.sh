@@ -45,7 +45,7 @@ fi
 
 if [ $desejo = "3" ]; then
         clear
-        echo "Restartado o nginx"; sudo systemctl restart nginx; open http://127.0.0.1
+        echo "Restart o nginx"; sudo systemctl restart nginx; open http://127.0.0.1
 else
         echo ""
 fi
@@ -72,6 +72,5 @@ else
 fi
 
 if [ $desejo = "6" ]; then
-        clear
         exit
 fi
