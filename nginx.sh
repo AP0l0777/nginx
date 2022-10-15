@@ -63,7 +63,7 @@ fi
 if [ $desejo = "5" ]; then
         clear
         echo "                                            !!!!!    abrindo arquivo hosts    !!!!!                                                   "
-        echo " !!!!! Em seguida adicione uma linha com o número de ip e o nome do seu projeto exemplo(127.0.0.1 meusite.com.br www.meusite.com.br) !!>
+        echo " !!!!! Em seguida adicione uma linha com o número de ip e o nome do seu projeto exemplo(127.0.0.1 meusite.com.br www.meusite.com.br) !!!"
         sleep 8s
         sudo nano /etc/hosts
 else
@@ -72,4 +72,6 @@ fi
 
 if [ $desejo = "6" ]; then
         exit
+else
+        echo ""
 fi
