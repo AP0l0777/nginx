@@ -45,14 +45,13 @@ fi
 
 if [ $desejo = "3" ]; then
         clear
-        echo "Restart o nginx"; sudo systemctl restart nginx; open http://127.0.0.1
+        sudo systemctl restart nginx; open http://127.0.0.1
 else
         echo ""
 fi
 echo ""
 if [ $desejo = "4" ]; then
         clear
-        echo "abrindo arquivo ..."
         sleep 3s
         cd /var/www/html
         nano index.html
