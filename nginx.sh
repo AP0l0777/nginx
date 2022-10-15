@@ -1,5 +1,8 @@
 #!/bin/bash
 clear
+sudo apt update
+sudo apt install nginx -y
+clear
 echo ""
 echo "apolo777"
 echo "                                                                            "
